@@ -1,0 +1,2 @@
+#!/usr/bin/env zsh
+docker run -i -a stdout -v $(pwd):/code dryzhikov/docker-black black $*
